@@ -81,4 +81,18 @@ VALUES
     (9, 'Max', 'Dog', 'Golden Retriever', '2018-03-15', 'Male', 'Spotted Rossetted', 9),
     (10, 'Cleo', 'Cat', 'Ragdoll', '2019-12-22', 'Female', 'Seal Point', 10);
     
-    
+      INSERT INTO appointments (appointid, animalid, apointdate, address,reason)
+VALUES
+    (1,1, '20223-01-05', 'Annual check up'),
+    (2,2, '20223-01-10', 'Vaccination'),
+    (3,3, '20223-02-02', 'Injury assesment'),
+    (4,4, '20223-02-15', 'Dental cleaning'),
+    (5,5, '20223-03-05', 'Skin condition'),
+    (6,6, '20223-03-10', 'Check fleas'),
+    (7,7, '20223-04-12', 'Vaccination'),
+    (8,8, '20223-04-18', 'Spaying/neutering'),
+    (9,9, '20223-05-02', 'Allergy treatment'),
+    (10,10, '20223-05-20', 'Eye infection');
+
+
+
